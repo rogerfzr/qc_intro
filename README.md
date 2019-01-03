@@ -17,6 +17,8 @@ Once Anaconda and the necessary packages are installed, and you can get jupyter 
 
 4. In the cloned git repo, create a virtual conda environment with python 3.6 and all the required packages: `conda create -f env_setup.yml`
 
-5. Start a local jupyter server with the command: `jupyter notebook`. This should open the jupyter dashboard in your web browser. Alternatively, a link will be printed out in the terminal, which you can paste into your web browser to open the dashboard manually.
+5. Activate your conda environment with the command `source activate qc` (or `activate qc` for Windows).
 
-6. From the jupyter dashboard open `py-primer.ipynb` and start executing cells (using Shift+Enter).
+6. Start a local jupyter server with the command: `jupyter notebook`. This should open the jupyter dashboard in your web browser. Alternatively, a link will be printed out in the terminal, which you can paste into your web browser to open the dashboard manually.
+
+7. From the jupyter dashboard open `py-primer.ipynb` and start executing cells (using Shift+Enter).
