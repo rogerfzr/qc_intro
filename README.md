@@ -2,7 +2,7 @@
 
 ## Setup
 
-View `py-primer.ipynb` for an introduction to python, numpy, and matploylib.
+View `py-primer.ipynb` for an introduction to python, numpy, and matplotlib.
 Installation instructions are below, and also in `py-primer.ipynb`.
 
 These instructions work best on Ubuntu machines (and it's highly encouaged to use Ubuntu for the class). However, only very slight modifications are necessary for Mac and Windows.
