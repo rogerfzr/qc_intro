@@ -15,7 +15,7 @@ Once Anaconda and the necessary packages are installed, and you can get jupyter 
 
 3. In the directory of your choice, clone this git repo: `git clone https://github.com/fleeb24/qc_intro`
 
-4. In the cloned git repo, create a virtual conda environment with python 3.6 and all the required packages: `conda create -f env_setup.yml`
+4. In the cloned git repo, create a virtual conda environment with python 3.6 and all the required packages: `conda env create -f env_setup.yml`
 
 5. Activate your conda environment with the command `source activate qc` (or `activate qc` for Windows).
 
