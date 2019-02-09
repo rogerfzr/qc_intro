@@ -15,12 +15,12 @@ Once Anaconda and the necessary packages are installed, and you can get jupyter 
 
 3. In the directory of your choice, clone this git repo: `git clone https://github.com/fleeb24/qc_intro`
 
-4. In the cloned git repo, create a virtual conda environment with python 3.6 and all the required packages (`numpy`, `matplotlib`, `jupyter`, and `qiskit`). 
-    - On Linux/Mac, this can be done using: `conda env create -f env_setup.yml`. 
-    - On Windows, first execute `conda create -n qc python=3.6 numpy matplotlib jupyter` and complete the installation, then activate the environment using `activate qc`, and finally execute `pip install qiskit`.
+4. In the cloned git repo, create a virtual conda environment with python 3.6 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing `conda create -n qc python=3.6 numpy matplotlib jupyter sympy` and complete the installation.
 
-5. Activate your conda environment, if you haven't already done so, with the command `source activate qc` (or `activate qc` for Windows).
+5. Activate your conda environment with the command `source activate qc` (or `activate qc` for Windows).
 
-6. Start a local jupyter server with the command: `jupyter notebook`. This should open the jupyter dashboard in your web browser. Alternatively, a link will be printed out in the terminal, which you can paste into your web browser to open the dashboard manually.
+6. From inside your `qc` environment, execute `pip install qiskit` to install `qiskit`.
 
-7. From the jupyter dashboard open `py-primer.ipynb` and start executing cells (using Shift+Enter).
+7. Start a local jupyter server with the command: `jupyter notebook`. This should open the jupyter dashboard in your web browser. Alternatively, a link will be printed out in the terminal, which you can paste into your web browser to open the dashboard manually.
+
+8. From the jupyter dashboard open `py-primer.ipynb` and start executing cells (using Shift+Enter).
